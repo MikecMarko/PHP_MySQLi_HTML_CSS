@@ -1,0 +1,3 @@
+Database name: id15669066_iwa_2019_zb_projekt
+Database username: id15669066_iwa_2019
+Database password: P@ssword1234
