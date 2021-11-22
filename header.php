@@ -16,12 +16,14 @@
     <div class="wrapper">
    
     <?php 
-
+  
     if(!isset($_SESSION['type_id']))
     {
+        
         echo '<a class="btn" href="index.php">Home page</a>';
         echo '<a class="btn" href="login.php">Log In</a>';
         echo '<a class="btn" href="unregistered_categories.php">Categories and total number of them</a>';
+      
     }
 
     if(isset($_SESSION['type_id']))
@@ -58,7 +60,7 @@
         }
 
     }
-
+    
     ?>
     <br><br>
   
