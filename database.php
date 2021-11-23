@@ -9,8 +9,8 @@ function database_connection()
 
     $mysqli = mysqli_connect(
         "localhost", 
-        "iwa_2019", 
-        "foi2019", 
+        "root",
+        "",
         "iwa_2019_zb_projekt"
     );    
 
